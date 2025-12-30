@@ -18,7 +18,7 @@ header {
 }       
 
 main {
-  display: grid;
+  display: grid;       
   grid-template-columns: 1fr 2fr 1fr;
   gap: 20px;
   padding: 20px;
@@ -54,5 +54,6 @@ footer {
   font-size: 12px;
   opacity: 0.5;
 }
+
 
 
