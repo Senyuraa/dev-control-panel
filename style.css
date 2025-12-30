@@ -23,7 +23,7 @@ main {
   gap: 20px;
   padding: 20px;
 }
-
+       
 .panel {
   background: #161616;
   padding: 20px;
@@ -54,6 +54,7 @@ footer {
   font-size: 12px;
   opacity: 0.5;
 }
+
 
 
 
