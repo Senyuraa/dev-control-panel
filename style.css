@@ -15,7 +15,7 @@ header {
   border-bottom: 1px solid #333;
   display: flex;
   justify-content: space-between;
-}       
+}              
 
 main {
   display: grid;       
@@ -54,6 +54,7 @@ footer {
   font-size: 12px;
   opacity: 0.5;
 }
+
 
 
 
