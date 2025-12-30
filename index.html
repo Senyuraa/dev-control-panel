@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dev Control Panel</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="theme.css">
+  <link rel="stylesheet" href="animations.css">
+</head>
+<body>
+
+<header>
+  <h1>DEV CONTROL PANEL</h1>
+  <span class="tag">system.online</span>
+</header>
+
+<main>
+  <section class="panel left">
+    <h2>Status</h2>
+    <ul>
+      <li>CPU Load: <span id="cpu">32%</span></li>
+      <li>Memory: <span id="ram">4.1 GB</span></li>
+      <li>Network: <span id="net">Stable</span></li>
+      <li>Uptime: <span id="uptime">12h 21m</span></li>
+    </ul>
+  </section>
+
+  <section class="panel center">
+    <h2>Logs</h2>
+    <div class="logs" id="logs"></div>
+  </section>
+
+  <section class="panel right">
+    <h2>Controls</h2>
+
+    <button onclick="toggleSystem()">Toggle System</button>
+    <button onclick="addLog()">Add Log</button>
+    <button onclick="changeTheme()">Change Theme</button>
+
+    <div class="switches">
+      <label><input type="checkbox"> Auto Deploy</label>
+      <label><input type="checkbox"> Error Tracking</label>
+      <label><input type="checkbox"> Debug Mode</label>
+      <label><input type="checkbox"> Performance Boost</label>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <span>Made by Aymaan</span>
+</footer>
+
+<script src="data.js"></script>
+<script src="utils.js"></script>
+<script src="settings.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
